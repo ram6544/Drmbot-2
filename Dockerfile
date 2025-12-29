@@ -30,4 +30,4 @@ RUN git clone https://github.com/axiomatic-systems/Bento4.git && \
 # Python deps
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-CMD ["sh", "start.sh"]
+CMD ["python3", "main.py"]
